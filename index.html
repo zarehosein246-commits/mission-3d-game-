@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#07120f">
+<title>ماموریت سه‌بعدی</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hud">
+  <div class="brand">MISSION <span>03</span></div>
+  <div id="objective">مأموریت: سه کریستال آبی را پیدا کن</div>
+  <div id="count">کریستال‌ها: 0 / 3</div>
+  <div id="hint">حرکت کن، کریستال‌ها را جمع کن و به دروازهٔ سبز برس.</div>
+</div>
+<div id="centerMark">+</div>
+<div id="message" role="status">برای شروع، روی «شروع مأموریت» بزن</div>
+<div id="startScreen">
+  <div class="start-card">
+    <div class="eyebrow">ADVENTURE • 3D</div>
+    <h1>ماموریت<br><span>کریستال گمشده</span></h1>
+    <p>در خرابه‌های باستانی ۳ کریستال انرژی پیدا کن و به دروازهٔ سبز برس.</p>
+    <button id="startBtn">شروع مأموریت</button>
+    <small>قابل اجرا در مرورگر گوشی و کامپیوتر</small>
+  </div>
+</div>
+<div id="mobileControls">
+  <div id="pad">
+    <button data-move="forward" class="up">▲</button>
+    <button data-move="left" class="left">◀</button>
+    <button data-move="back" class="down">▼</button>
+    <button data-move="right" class="right">▶</button>
+  </div>
+  <button id="jumpBtn" class="action">پرش</button>
+</div>
+<div id="lookHelp">برای چرخاندن دوربین، صفحه را بکش</div>
+<script type="module" src="game.js"></script>
+</body>
+</html>
